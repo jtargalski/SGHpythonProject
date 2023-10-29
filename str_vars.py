@@ -16,6 +16,8 @@ print(s4)
 s5 = 'avabba\tbacc'
 print(s5)
 
+
+#binary place in ASCI
 print(ord('a'))
 print(ord('A'))
 print(ord('Ł'))
