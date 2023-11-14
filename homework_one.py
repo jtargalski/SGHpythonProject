@@ -5,7 +5,7 @@
 # N defines the number of first prime numbers to be printed
 N = int(input("How many first prime numbers do you want to print?: "))
 
-# Below is the first solution based on two functions in
+# Below is the first solution based on two functions
 
 """
 def prime_checker(number):
