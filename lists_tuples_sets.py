@@ -43,22 +43,24 @@ print(sum(row_sum))
 
 #sum all columns in list_2D
 
-n_col = len(list_2D[0])
-print(n_col)
-
-
 list_2D = [[1, 2, 4], [2, 4, 3], [0, 0, 1], [5, 4, 0]]
 
+n_col = len(list_2D[0])
 sum_of_col = [0] * n_col
-print(sum_of_col)
 
 for row in list_2D:
-    col_sum = 0
     for n in range(n_col):
         sum_of_col[n] += row[n]
 
 print(sum_of_col)
 
+
+col_sum = [0, 0, 0]
+for row in list_2D:
+    for i in range(len(row)):
+        col_sum[i] += row[i]
+
+print(col_sum)
 
 
 
