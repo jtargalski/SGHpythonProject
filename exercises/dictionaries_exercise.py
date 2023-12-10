@@ -25,7 +25,11 @@ print(my_text_edited)
 
 my_text_list = my_text_edited.split(' ')
 
+print(f'\n\n{my_text_list}\n\n')
+
 my_text_list_set = set(my_text_list)
+
+print(f'\n\n{my_text_list_set}\n\n')
 
 my_text_dict = {}
 

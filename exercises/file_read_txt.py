@@ -15,3 +15,6 @@ with open(my_file, 'r') as f:
     for line in lines:
         i += 1
         print(f'{i}: {line}', end='')
+
+
+print(lines)
